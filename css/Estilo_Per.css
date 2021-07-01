@@ -73,6 +73,21 @@ header{
     width: 320px;
 }
 
+.box_sair{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_sair button{
+    width: 125px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .nome_usuario{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -116,9 +131,10 @@ hr{
 .box_post_organizacao{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 68vw;
+    justify-content: space-between;
+    width: 60vw;
     height: auto;
+    border: 1px solid #DCDCDC;
 }
 
 .box_post{
@@ -129,9 +145,21 @@ hr{
     justify-content: space-evenly;
 }
 
+
 .box_info_posts{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 470px;
+}
+
+.box_info_postagem{
+    display: flex;
+    align-items: center;
+}
+
+.deletar{
+    padding: 0 5px 100px 0;
 }
 
 .box_local_post{
