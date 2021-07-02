@@ -52,6 +52,10 @@ header{
     align-items: center;
 }
 
+.img_perfil i{
+    font-size: 154px;
+}
+
 .box_info{
     display: flex;
     flex-direction: column;
